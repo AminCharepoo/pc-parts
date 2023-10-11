@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: linear-gradient(#51e2f5, #a28089);
+    margin: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    text-align: center;
+    background-color: #9df9ef;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    width: 100%; 
+    max-width: 400px;
+}
+
+.form {
+    margin-bottom: 20px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #e3e1c6;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 100%;
+    margin: 5px 40;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #ffa8B6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 50px;
+    width: 100%;
+    margin: 50px auto;
+
+    
+
+}
+
+button:hover {
+    background-color: #005959;
+}
+
+
+input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 100%; 
+    margin: 5px 40px;
+
+}
+
+
+
+.button-container {
+    display: flex; 
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+}
+
+.edit-input {
+    width: 150px; 
+    margin-right: 10px; 
+}
+
+
+.button {
+    text-align:center;
+    margin: 5px;
+    width: 100px; 
+
+
+}
+
+button#addButton {
+    padding: 10px 20px;
+    background-color: #ffa8B6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 40px;
+}
+
+
+.delete-button {
+    vertical-align: middle;
+}
