@@ -77,7 +77,7 @@ document.addEventListener("DOMContentLoaded", function () {
         editButton.addEventListener("click", function () {
             partButton.style.display = "none";
             auctionButton.style.display = "none;";
-            editInput.style.display = "block";
+            editInput.style.display = "none";
             saveButton.style.display = "block";
 
         });
